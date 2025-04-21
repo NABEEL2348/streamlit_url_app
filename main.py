@@ -11,7 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_cohere import ChatCohere
 from langchain.chains import RetrievalQAWithSourcesChain
 
-
+load_dotenv()
 llm = ChatCohere(cohere_api_key="Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb")
 
 load_dotenv()
