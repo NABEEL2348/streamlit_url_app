@@ -6,6 +6,6 @@ cohere
 python-dotenv==1.0.0
 unstructured==0.9.2
 faiss-cpu
-libmagic==1.0
-
+libmagic
 tiktoken==0.4.0
+nltk
