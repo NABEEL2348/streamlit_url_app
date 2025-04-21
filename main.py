@@ -11,13 +11,14 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_cohere import ChatCohere
 from langchain.chains import RetrievalQAWithSourcesChain
 
-load_dotenv()
+
 llm = ChatCohere(cohere_api_key="Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb")
 
 load_dotenv()
+
 embeddings = CohereEmbeddings(
     model="embed-english-v3.0",
-    cohere_api_key=os.getenv("Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb")  # Ensure this is in your .env file
+    cohere_api_key=os.getenv("COHERE_API_KEY")
 )
 
 st.title("📰 News Research Tool")
