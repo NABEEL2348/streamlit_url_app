@@ -19,7 +19,7 @@ load_dotenv()
 nltk.download('punkt')
 
 # Ensure COHERE_API_KEY is loaded from .env
-cohere_api_key = os.getenv("COHERE_API_KEY")
+cohere_api_key="Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb"
 if not cohere_api_key:
     st.error("⚠️ COHERE_API_KEY not found in environment variables.")
     st.stop()
