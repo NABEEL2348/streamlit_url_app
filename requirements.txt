@@ -7,6 +7,6 @@ python-dotenv==1.0.0
 unstructured==0.9.2
 faiss-cpu
 libmagic==1.0
-python-magic==0.4.27
-python-magic-bin==0.4.14
+python-magic
+python-magic-bin
 tiktoken==0.4.0
