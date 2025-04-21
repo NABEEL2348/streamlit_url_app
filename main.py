@@ -12,7 +12,7 @@ from langchain_cohere import ChatCohere
 from langchain.chains import RetrievalQAWithSourcesChain
 
 
-llm = ChatCohere(cohere_api_key="Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb")
+llm = ChatCohere(cohere_api_key="")
 
 load_dotenv()
 embeddings = CohereEmbeddings(
