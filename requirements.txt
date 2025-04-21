@@ -1,5 +1,5 @@
 streamlit
-langchain==0.3.23
+langchain
        
 langchain-community==0.3.25
 langchain-cohere==0.4.4
