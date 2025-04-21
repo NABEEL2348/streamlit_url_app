@@ -11,9 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_cohere import ChatCohere
 from langchain.chains import RetrievalQAWithSourcesChain
 
-load_dotenv()
-
-cohere_api_key = os.getenv("COHERE_API_KEY")
+cohere_api_key=Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb
 if not cohere_api_key:
     st.error("⚠️ COHERE_API_KEY not found in environment variables.")
     st.stop()
