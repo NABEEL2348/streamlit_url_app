@@ -1,6 +1,7 @@
 streamlit==1.22.0
 langchain==0.0.284
 langchain-community
+langchain_cohere
 cohere==4.42
 python-dotenv==1.0.0
 faiss-cpu
