@@ -3,5 +3,5 @@ langchain==0.0.284
 langchain-community==0.0.19
 cohere==4.42
 python-dotenv==1.0.0
-faiss-cpu==1.7.4
+faiss-cpu
 beautifulsoup4==4.12.0
