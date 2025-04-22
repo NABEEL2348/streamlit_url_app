@@ -1,8 +1,7 @@
 streamlit==1.22.0
 langchain==0.0.284
-langchain-community
+langchain-community==0.0.19
 cohere==4.42
 python-dotenv==1.0.0
-unstructured==0.9.2
 faiss-cpu==1.7.4
-beautifulsoup4
+beautifulsoup4==4.12.0
