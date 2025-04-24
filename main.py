@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_cohere import CohereEmbeddings, ChatCohere
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.chains.qa_with_sources.retrieval import RetrievalQAWithSourcesChain
-cohere_api_key="Cu5t9qDyu7jBahrZHASwYFgfg5JfhvZf4kjyNRAb"
+cohere_api_key="2aIcYOdp7Ah1CUT0esEGC6I24MBXpcPosrW3p2ui"
 if not cohere_api_key:
     st.error("⚠️ COHERE_API_KEY not found in environment variables.")
     st.stop()
